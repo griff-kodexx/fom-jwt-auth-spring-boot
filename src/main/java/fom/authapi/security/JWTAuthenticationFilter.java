@@ -4,7 +4,7 @@ package fom.authapi.security;
  */
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import fom.ApplicationUser;
+import fom.model.ApplicationUser;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.security.authentication.AuthenticationManager;

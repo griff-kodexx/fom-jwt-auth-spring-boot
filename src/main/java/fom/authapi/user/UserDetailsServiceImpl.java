@@ -3,7 +3,7 @@ package fom.authapi.user;
  *  Created by griff on 7/24/18 .
  */
 
-import fom.ApplicationUser;
+import fom.model.ApplicationUser;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
