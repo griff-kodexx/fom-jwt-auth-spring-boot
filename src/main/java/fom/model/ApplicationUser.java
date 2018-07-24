@@ -6,8 +6,7 @@ package fom.model;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity
-@Table(name = "ApplicationUsers")
+@MappedSuperclass
 public class ApplicationUser {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
