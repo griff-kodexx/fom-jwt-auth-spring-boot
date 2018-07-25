@@ -1,4 +1,4 @@
-package fom.authapi.security;
+package fom.auth.security;
 /*
  *  Created by griff on 7/24/18 .
  */
@@ -16,9 +16,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import static fom.authapi.security.SecurityConstants.HEADER_STRING;
-import static fom.authapi.security.SecurityConstants.SECRET;
-import static fom.authapi.security.SecurityConstants.TOKEN_PREFIX;
+import static fom.auth.security.SecurityConstants.HEADER_STRING;
+import static fom.auth.security.SecurityConstants.SECRET;
+import static fom.auth.security.SecurityConstants.TOKEN_PREFIX;
 
 public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
     public JWTAuthorizationFilter(AuthenticationManager authenticationManager) {

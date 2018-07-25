@@ -1,4 +1,4 @@
-package fom.authapi.security;
+package fom.auth.security;
 /*
  *  Created by griff on 7/24/18 .
  */
@@ -22,7 +22,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
 
-import static fom.authapi.security.SecurityConstants.*;
+import static fom.auth.security.SecurityConstants.*;
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     private AuthenticationManager authenticationManager;

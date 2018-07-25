@@ -1,4 +1,4 @@
-package fom.authapi.security;
+package fom.auth.security;
 /*
  *  Created by griff on 7/24/18 .
  */
@@ -11,7 +11,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import static fom.authapi.security.SecurityConstants.SIGN_UP_URL;
+import static fom.auth.security.SecurityConstants.SIGN_UP_URL;
 
 @EnableWebSecurity
 public class WebSecurity extends WebSecurityConfigurerAdapter {

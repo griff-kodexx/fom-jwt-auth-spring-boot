@@ -1,4 +1,4 @@
-package fom.authapi.user;
+package fom.auth.user;
 /*
  *  Created by griff on 7/24/18 .
  */
