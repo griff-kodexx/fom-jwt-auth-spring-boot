@@ -8,7 +8,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "clubOwners")
-class ClubOwner extends ApplicationUser {
+public class ClubOwner extends ApplicationUser {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
